@@ -26,9 +26,12 @@ ArrayList <Patient> patientss = new ArrayList <Patient>();
 
 	public void doMedicine() {
 		// TODO Auto-generated method stub
-		
-	}
+		for (int i = 0; i < patientss.size(); i++) {
+			patientss.get(i).checkPulse();
+		}
 
+
+	}
 
 
 }
